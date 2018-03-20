@@ -82,7 +82,7 @@ a{
     /*background: #FCFCFC;*/
     /*color: #B9B9B9;*/
     position: fixed;
-    top: 611px;
+    bottom: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

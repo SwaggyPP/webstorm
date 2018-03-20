@@ -103,7 +103,7 @@ a{
     background: #FCFCFC;
     /*color: #B9B9B9;*/
     position: fixed;
-    top: 623px;
+    bottom: 0px;
     padding-left: 10px;
     padding-top: 10px;
     border-top: rgba(209,214,209,0.91) solid 1px;
