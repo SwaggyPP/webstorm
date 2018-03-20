@@ -1,0 +1,419 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(239,250,242,0.91);
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    background: #393A3E;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    font: bold 20px kaiti;
+    color: #A0A1A5;
+    padding: 18px;
+    border-bottom: #EAEAEA solid 1px;
+}
+.top .sousuo{
+    position: absolute;
+    left: 328px;
+    top: 21px;
+}
+.main{
+    width: 100%;
+    position: absolute;
+    top: 61px;
+    background-color: rgba(239,250,242,0.91);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.main1{
+    padding: 20px 0px 0px 20px;
+}
+/*.neirong{
+    width: 100px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: -5px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong img{
+     position: relative;
+     top: 10px;
+     left: 20px;
+ }*/
+.main1 img{
+    position: absolute;
+    left: 320px;
+}
+.neirong1{
+    width: 150px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 120px;
+    background-color: #98E165;
+    border-radius: 3px;
+}
+.neirong1 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main2{
+    padding: 20px 0px 0px 20px;
+}
+.main2 img{
+    position: absolute;
+    left: 15px;
+}
+.neirong2{
+    width: 43px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 26px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong2 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main3{
+    padding: 20px 0px 0px 20px;
+}
+.main3 img{
+    position: absolute;
+    left: 320px;
+}
+.neirong3{
+    width: 105px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 166px;
+    background-color: #98E165;
+    border-radius: 3px;
+}
+.neirong3 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main4{
+    padding: 20px 0px 0px 20px;
+}
+.main4 img{
+    position: absolute;
+    left: 320px;
+}
+.neirong4{
+    width: 250px;
+    height: 58px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 11px;
+    background-color: #98E165;
+    border-radius: 3px;
+    padding-right: 10px;
+}
+.neirong4 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main5{
+    padding: 20px 0px 0px 20px;
+}
+.main5 img{
+    position: absolute;
+    left: 15px;
+}
+.neirong5{
+    width: 55px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 26px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong5 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main6{
+    padding: 20px 0px 0px 20px;
+}
+.main6 img{
+    position: absolute;
+    left: 320px;
+}
+.neirong6{
+    width: 105px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 166px;
+    background-color: #98E165;
+    border-radius: 3px;
+}
+.neirong6 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+.main7{
+    padding: 20px 0px 0px 20px;
+}
+.main7 img{
+    position: absolute;
+    left: 320px;
+}
+.neirong7{
+    width: 250px;
+    height: 103px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 1px;
+    background-color: #98E165;
+    border-radius: 3px;
+    padding-right: 20px;
+}
+.neirong7 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main8{
+    padding: 20px 0px 0px 20px;
+}
+.main8 img{
+    position: absolute;
+    left: 15px;
+}
+.neirong8{
+    width: 200px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 26px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong8 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main9{
+    padding: 20px 0px 0px 20px;
+}
+.main9 img{
+    position: absolute;
+    left: 320px;
+}
+.neirong9{
+    width: 40px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 232px;
+    background-color: #98E165;
+    border-radius: 3px;
+}
+.neirong9 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+.main10{
+    padding: 20px 0px 0px 20px;
+}
+.main10 img{
+    position: absolute;
+    left: 15px;
+}
+.neirong10{
+    width: 50px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 26px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong10 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main11{
+    padding: 20px 0px 0px 20px;
+}
+.main11 img{
+    position: absolute;
+    left: 15px;
+}
+.neirong11{
+    width: 58px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 26px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong11 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+
+.main12{
+    padding: 20px 0px 0px 20px;
+}
+.main12 img{
+    position: absolute;
+    left: 320px;
+}
+.neirong12{
+    width: 95px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 177px;
+    background-color: #98E165;
+    border-radius: 3px;
+}
+.neirong12 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+.main13{
+    padding: 20px 0px 0px 20px;
+}
+.main13 img{
+    position: absolute;
+    left: 15px;
+}
+.neirong13{
+    width: 75px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 26px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong13 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 13px;
+}
+
+h5{
+    padding-left: 20px;
+    margin: 10px 0px 0px 0px;
+    font: 15px kaiti;
+    color: rgba(140,145,140,0.91);
+}
+.foot {
+    width: 100%;
+    background: #FCFCFC;
+    /*color: #B9B9B9;*/
+    position: fixed;
+    bottom: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-top: #EAEAEA solid 1px;
+    /*opacity: 1;*/
+}
+.foot p{
+    width: 224px;
+    border-bottom: #EAEAEA solid 1px;
+    position: absolute;
+    left: 49px;
+    top: 21px;
+    float: left;
+}
+.smile{
+    position: absolute;
+    left: 286px;
+    top: 12px;
+}
+.j{position: absolute;
+    left: 323px;
+
+}

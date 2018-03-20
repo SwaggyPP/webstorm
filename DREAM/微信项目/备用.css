@@ -1,0 +1,55 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(239,250,242,0.91);
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    background: #393A3E;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    font: bold 20px kaiti;
+    color: #A0A1A5;
+    padding: 18px;
+    border-bottom: #EAEAEA solid 1px;
+}
+.top .sousuo{
+    position: absolute;
+    left: 290px;
+}
+.top .jiahao{
+    position: absolute;
+    left: 328px;
+}
+
+.foot{
+    width: 100%;
+    /*background: #FCFCFC;*/
+    /*color: #B9B9B9;*/
+    position: fixed;
+    top: 611px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #EAEAEA solid 1px;
+    padding-top: 10px;
+    background-color: rgba(239,250,242,0.91);
+    opacity: 1;
+}
+.foot div{
+    width: 25%;
+    text-align: center;
+}
+.foot a{
+    color: #B9B9B9;
+    /*padding: 10px 10px 10px 35px;*/
+    font-size: small;
+}
+.foot a:active{
+    color: #41C015;
+}

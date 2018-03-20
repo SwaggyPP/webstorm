@@ -1,0 +1,65 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(239,250,242,0.91);
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    background: #393A3E;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    font: bold 20px kaiti;
+    color: #A0A1A5;
+    padding: 18px;
+    border-bottom: #EAEAEA solid 1px;
+}
+.top .camera{
+    position: absolute;
+    left: 325px;
+}
+.tou{
+    position: absolute;
+    left: 280px;
+    top: 320px;
+    z-index: 333;
+}
+.tou img{
+    border: white solid 1px;
+}
+.tou span{
+    position: absolute;
+    top: 10px;
+    right: 90px;
+}
+.quan{
+    padding: 50px 15px 0px 15px;
+}
+.s img{
+    position: absolute;
+    float: left;
+}
+.wenzi{
+    position: absolute;
+    float: left;
+    margin-left: 80px;
+}
+.wenzi p{
+    font-size: large;
+    margin-top: 0px;
+}
+.wenzi p a{
+    color: #A7B1BA;
+}
+.quan .s .wenzi .time{
+    font-size: 10px;
+    color: #4e4f51;
+}
+.quan .s .wenzi img{
+    position: absolute;
+    left: 240px;
+    top: 86px;
+}
