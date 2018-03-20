@@ -1,0 +1,113 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EBEBEB;
+    font-family: "Microsoft YaHei";
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    background: #393A3E;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    font: 20px;
+    color: white;
+    padding: 12px;
+    border-bottom: #EAEAEA solid 1px;
+}
+.top .sousuo{
+    position: absolute;
+    left: 290px;
+}
+.top .jiahao{
+    position: absolute;
+    left: 328px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*align-items: center;*/
+    position: absolute;
+    top: 47px;
+    /*background-color: rgba(239,250,242,0.91);*/
+}
+h1{
+    margin-top: 56px;
+}
+.main a{
+    padding: 8px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: #EAEAEA solid 1px;
+    background-color: white;
+}
+.tou{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+.tou img{
+    margin-top: 7px;
+}
+/*.toux img{
+    position: relative;
+    top: 3px;
+}*/
+.zi{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.ming{
+    font: 15px "Microsoft YaHei";
+    color: black;
+}
+h5{
+    padding-left: 10px;
+    margin: 0px;
+    font: 15px kaiti;
+    color: rgba(140,145,140,0.91);
+    border-bottom: #EAEAEA solid 1px;
+}
+.side{
+    width: 15px;
+    height: 520px;
+    /*background-color: blue;*/
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 999;
+    position: fixed;
+    left: 351px;
+    top: 42px;
+    color: rgba(65,67,65,0.91);
+    font-size: 15px;
+}
+.foot{
+    width: 100%;
+    /*color: #B9B9B9;*/
+    position: fixed;
+    top: 611px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #EAEAEA solid 1px;
+    padding-top: 10px;
+    background-color: white;
+    opacity: 1;
+}
+.foot div{
+    width: 25%;
+    text-align: center;
+}
+.foot a{
+    color: #B9B9B9;
+    /*padding: 10px 10px 10px 35px;*/
+    font-size: small;
+}

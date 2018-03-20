@@ -1,0 +1,127 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EBEBEB;
+    font-family: "Microsoft YaHei";
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    background: #393A3E;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    font: 18px "Microsoft YaHei";
+    color: white;
+    padding: 12px;
+    border-bottom: #EAEAEA solid 1px;
+}
+.jiantou img{
+    position: relative;
+    top: 4px;
+}
+.top .sousuo{
+    position: absolute;
+    left: 335px;
+    top: 17px;
+}
+.top .jiahao{
+    position: absolute;
+    left: 328px;
+}
+.main{
+    width: 100%;
+    position: absolute;
+    top: 49px;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.main01{
+    padding: 20px 0px 0px 20px;
+}
+.main01 a{
+    position: relative;
+    float: left;
+}
+.neirong{
+    width: 100px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: -10px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong1{
+    width: 200px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    top: 1px;
+    left: -10px;
+    background-color: white;
+    border-radius: 3px;
+}
+.neirong img{
+     position: relative;
+     top: 10px;
+     left: 20px;
+ }
+
+.neirong1 img{
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 20px;
+}
+.main .main01 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 41px;
+}
+.main02{
+    padding: 20px 0px 0px 90px;
+    position: relative;
+}
+.main .main02 span{
+    position: relative;
+    float: left;
+    top: 8px;
+    left: 41px;
+}
+
+.foot {
+    width: 100%;
+    background: #FCFCFC;
+    /*color: #B9B9B9;*/
+    position: fixed;
+    top: 623px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-top: rgba(209,214,209,0.91) solid 1px;
+}
+.foot p{
+    width: 224px;
+    border-bottom: #EAEAEA solid 1px;
+    position: absolute;
+    left: 49px;
+    top: 21px;
+    float: left;
+}
+.smile{
+    position: absolute;
+    left: 286px;
+    top: 12px;
+}
+.j{position: absolute;
+    left: 323px;
+
+}

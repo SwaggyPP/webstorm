@@ -1,0 +1,106 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    font-family: "Microsoft YaHei";
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    background: #393A3E;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    color: white;
+    padding: 12px;
+    border-bottom: #EAEAEA solid 1px;
+}
+.top .sousuo{
+    position: absolute;
+    left: 290px;
+}
+.top .jiahao{
+    position: absolute;
+    left: 328px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*align-items: center;*/
+    position: absolute;
+    top: 49px;
+    /*background-color: rgba(239,250,242,0.91);*/
+}
+.liaotian a{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: #EAEAEA solid 1px;
+    background-color: white;
+}
+.zi{
+    padding-left: 20px;
+}
+.ming{
+    font-size: 16px;
+    color: black;
+}
+.wen{
+    font-size: 12px;
+    line-height: 41px;
+    color: rgba(140,145,140,0.91);
+}
+.time{
+    font-size: 13px;
+    color: rgba(140,145,140,0.91);
+    position: relative;
+    left: 160px;
+    top: -18px;
+    float: right;
+}
+.time1{
+    font-size: 13px;
+    color: rgba(140,145,140,0.91);
+    position: relative;
+    left: 124px;
+    top: -31px;
+}
+.time2{
+    font-size: 13px;
+    color: rgba(140,145,140,0.91);
+    position: relative;
+    left: 141px;
+    top: -31px;
+}
+.foot{
+    width: 100%;
+    /*background: #FCFCFC;*/
+    /*color: #B9B9B9;*/
+    position: fixed;
+    top: 611px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #EAEAEA solid 1px;
+    padding-top: 10px;
+    background-color: white;
+    /*opacity: 1;*/
+}
+.foot div{
+    width: 25%;
+    text-align: center;
+}
+.foot a{
+    color: #B9B9B9;
+    /*padding: 10px 10px 10px 35px;*/
+    font-size: small;
+}
+.foot a:active{
+    color: #41C015;
+}
